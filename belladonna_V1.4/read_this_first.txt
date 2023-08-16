@@ -1,0 +1,39 @@
+This folder contains the sourcecode for a security bot to keep misinformation out of your telegram groups.
+It is a modulised python program which utilised the python-telegram-bot library.
+Special thanks to @SroSorcxisto for the file_scanner function which is essential for the blocklist.
+and also thanks to the python-telegram-bot staff.
+
+
+NOTE: 
+the misinfo list contains a library of websites which are known to propagate hate-speech, misinformation and or psuedo-science
+
+THIS BOT DOES NOT TRACK ANY INDIVIDUAL USERS!! It only takes the telegram ID numbers of the silver key_bearers (people who are trusted admins)
+It does however track the groups it's in (takes the groups username and ID) 
+
+
+features:
+*blocks websites known for misinfo/hate speech and gives a bitchy retort to the violator.
+*networks groups it resides in with the /groups command.
+*able to remove it from groups which you don't approve of helping.
+*ability to add or remove admin privilege for people over the bot.
+
+
+commands:
+incipio - 💡 winds up the toy.
+auxilium - 📖 brings up help.
+groups - 👁‍🗨 shows the list of all the chats this toy is in.
+plus - 🔒 adds a website to the block_list.
+minus - 🔒 removes a website from the block_list.
+misinfo_list - 🔒 displays the block_list.
+observatio_fororum - 🔒 lists all groups with + ids.
+observatio_canalium - 🔒 shows channels toy is in.
+observatio_populum - 🔒 total number of users.
+key_list - 🔒  used to see AG key_bearers.
+bestow_key - 🔒 used to promote users.
+confiscate_key - 🔒 used to demote users.
+relinquo_forum - 🔒 action to leave a group.
+terminatio - 🔒 emergency winding down of toy.
+
+If you need more info I suppose you could contact me on telegram @sinjoro_zilioni   - make sure you mention it's about the bot or github otherwise I may assume you to be a scammer/cold-caller.
+
+
